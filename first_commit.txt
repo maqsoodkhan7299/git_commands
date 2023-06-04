@@ -1,0 +1,15 @@
+# to check the global config variable values like username emails etc
+git config --list
+
+# to change the global config variable values
+git config --global user.name "Maqsood Ahemed Khan"
+sytax git config --global user.<fieldname> "<field value>"
+
+# To check the git version
+ git -v
+
+# to initialize the git
+git init
+
+# to check the git status
+git status
