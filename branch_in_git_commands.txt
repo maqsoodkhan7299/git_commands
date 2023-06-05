@@ -9,3 +9,18 @@ git branch
   second-branch
 
 
+"checkout is the command used to check out a branch. 
+"Moving us from the current branch, to the one specified at the end of the command:
+
+git checkout second-branch
+<ref line 5>
+"git branch
+"  main
+"* second-branch
+
+"steps to add changes to git repository
+0. change branch by: git checkout second-branch
+1. git add --all 
+2. git status #to check the status of the files
+3. git commit -m "message"
+4. git push -u origin second-branch

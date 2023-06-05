@@ -18,4 +18,12 @@ git status
 git add first_commit.txt  "for single file to add in the staging
 git add --all " for all files to add in the staging
 
-#
+#Note: Short status flags are:
+git status --short or --long
+"?? - Untracked files
+"A - Files added to stage
+"M - Modified files
+"D - Deleted files
+
+Git Commit Log
+git log
