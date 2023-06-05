@@ -10,3 +10,15 @@ git push -u origin main
 git remote add origin https://github.com/maqsoodkhan7299/git_commands.git
 git branch -M main
 git push -u origin main
+
+
+step to revert after commit
+git log --oneline "check logs
+git revert HEAD --no-edit
+git log --oneline "again check log
+Note: To revert to earlier commits, use git revert HEAD~x 
+(x being a number. 1 going back one more, 2 going back two more, etc.)
+
+steps for reset to previous commits
+git log --oneline " get commmit log number"
+git reset <log_num> "reset to previous commit"
