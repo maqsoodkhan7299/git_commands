@@ -1,0 +1,11 @@
+create a new branch
+git branch <branch-name> 
+git branch second-branch
+
+We can see the new branch with the name "second-branch", 
+but the * beside master specifies that we are currently on that branch.
+git branch
+* main
+  second-branch
+
+

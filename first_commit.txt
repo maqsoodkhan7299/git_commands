@@ -13,3 +13,9 @@ git init
 
 # to check the git status
 git status
+
+# add file to stagging area
+git add first_commit.txt  "for single file to add in the staging
+git add --all " for all files to add in the staging
+
+#
